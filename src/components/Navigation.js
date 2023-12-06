@@ -5,7 +5,6 @@ const Navigation = () => {
   return (
     <header>
       <nav>
-        <img src={menu} alt='logo' />
         <p>SBT</p>
       <ul class="links">
           <li><a href="#home">Home</a></li>
@@ -13,6 +12,7 @@ const Navigation = () => {
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+        <img src={menu} alt='logo' />
       </nav>
     </header>
   )
