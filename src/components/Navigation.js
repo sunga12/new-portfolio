@@ -1,9 +1,12 @@
 import React from 'react'
+import menu from './assets/images/Hamburger.png'
 
 const Navigation = () => {
   return (
     <header>
       <nav>
+        <img src={menu} alt='logo' />
+        <p>SBT</p>
       <ul class="links">
           <li><a href="#home">Home</a></li>
           <li><a href="#works">Portfolio</a></li>
