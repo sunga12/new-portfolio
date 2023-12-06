@@ -23,6 +23,7 @@ code {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -43,3 +44,12 @@ nav > ul {
 /* .links {
   display: none;
 } */
+
+.project {
+  margin: 3% auto;
+  width: 80%;
+  text-align: center;
+  border: 2px solid #ffffff;
+  padding: 2%;
+  border-radius: 10px;
+}
