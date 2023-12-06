@@ -55,15 +55,41 @@ const Projects = [
     category: 'Front-End'
     },
     {
-    name: 'Data Dashboard Healthcare',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    name: 'SmartSpendr',
+    description: 'A web application crafted with Ruby on Rails and powered by PostgreSQL. This App is designed to help you spend smarter, and budget better! It helps you to track your expenditures across the different categories they fall into, to help you see where all your money is "disappearing" to!',
     featuredImage:  './images/Proj3-bg.png',
     technologies: [['HTML'], ['Bootstrap'], ['Ruby']], 
-    liveLink: '#', 
-    sourceLink:'#',
-    category: 'Front-End'
+    liveLink: 'https://smartspendr-budget-app.onrender.com/', 
+    sourceLink:'https://github.com/sunga12/Smartspendr',
+    category: 'Full-Stack'
     },
-  
+    {
+      name: 'My Catalog',
+      description: 'a console app that will help you to keep a record of different types of things you own: books, music albums, and games. All data is preserved.',
+      featuredImage:  './images/Proj3-bg.png',
+      technologies: [['Ruby']], 
+      liveLink: '#', 
+      sourceLink:'https://github.com/K0ppai/My-Catalog',
+      category: 'Back-End'
+    }, 
+    {
+      name: 'Car Reservations',
+      description: 'A Full-stack Web App built with Ruby on Rails and PostgreSQL for the Back-end API and React & Redux for the Front-end. The App allows users to Sign-Up/Login and View/Reserve a car for a test drive in various locations around the world. Users are also able to add cars that will be made available for reservation.',
+      featuredImage:  './images/Proj3-bg.png',
+      technologies: [['Ruby on Rails'], ['CSS3'], ['React'], ['PostgreSQL']], 
+      liveLink: 'https://car-booking-frontend.onrender.com/', 
+      sourceLink:'https://github.com/hmunish/final-capstone-frontend',
+      category: 'Full-Stack'
+    }, 
+    {
+      name: 'Rails Recipes',
+      description: 'A web application crafted with Ruby on Rails and powered by PostgreSQL. This platform is designed to make recipe creation, discovery, and sharing a seamless experience. With this app, users can easily document and share their favorite recipes in an engaging blog-style format.',
+      featuredImage:  './images/Proj3-bg.png',
+      technologies: [['Ruby on Rails'], ['Bootstrap'], ['PostgreSQL']], 
+      liveLink: '#', 
+      sourceLink:'https://github.com/sunga12/Recipe-App-RoR',
+      category: 'Full-Stack'
+    }, 
 ];
 
 export default Projects;
