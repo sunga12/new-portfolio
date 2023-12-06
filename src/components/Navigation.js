@@ -1,5 +1,5 @@
 import React from 'react'
-import menu from './assets/images/Hamburger.png'
+import menu from '../assets/images/Hamburger.png'
 
 const Navigation = () => {
   return (
