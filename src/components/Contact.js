@@ -4,7 +4,6 @@ const Contact = () => {
   return (
     <div>
       <h2 class="contact-comment">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-      
       <form action="https://formspree.io/f/mqkoaqdk/" method="POST">
         <ul class="form-list">
           <li>
@@ -16,7 +15,6 @@ const Contact = () => {
           <li>
             <textarea name="user-message" id="message" maxlength="500" required placeholder="Write me something..."></textarea>
           </li>
-
           <li class="contact-button">
             <button class="form-submit" type="submit">Get in touch</button>
           </li>
