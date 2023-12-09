@@ -14,11 +14,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #08000e;
+  background-image: linear-gradient(to bottom right, #08000e, rgb(30, 2, 40) );
   color: #fff;
   padding: 0 3%;
-
-  /* width: 95%; */
 }
 
 .cta {
@@ -61,15 +59,48 @@ nav > ul {
 } */
 
 .project {
+}
+
+.slides {
+  width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #08000e;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 2%;
+  width: 7rem;
+}
+
+.Front-End {
+  background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.621), #08000e);
   margin: 3% auto;
-  width: 80%;
+  width: 60%;
   text-align: center;
   border: 2px solid #fff;
   padding: 2%;
   border-radius: 10px;
 }
 
-.slides {
-  width: 75%;
-  margin: 0 auto;
+.Back-End {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.436), #08000e);
+  margin: 3% auto;
+  width: 60%;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.Full-Stack {
+    background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.323), #08000e);
+    margin: 3% auto;
+    width: 60%;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 2%;
+    border-radius: 10px;
 }

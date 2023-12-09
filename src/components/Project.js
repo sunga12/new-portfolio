@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Project = ({
-  name, description, featuredImage, technologies,
+  name, description, featuredImage, technologies, category,
 }) => (
-  <div className="project">
+  <div className={`${category}`}>
     <div>
       <img src={featuredImage} alt="project" />
     </div>
@@ -24,6 +24,7 @@ Project.propTypes = {
   description: PropTypes.string,
   featuredImage: PropTypes.string,
   technologies: PropTypes.string,
+  category: PropTypes.string,
 };
 
 Project.defaultProps = {
@@ -31,6 +32,7 @@ Project.defaultProps = {
   featuredImage: '',
   description: '',
   technologies: '',
+  category: '',
 };
 
 export default Project;

@@ -22,6 +22,7 @@ const Works = () => {
           {projects.filter((p) => p.category === 'Front-End').map((project) => (
             <Project
               key={project.id}
+              category={project.category}
               name={project.name}
               description={project.description}
               featuredImage={project.featuredImage}
@@ -36,12 +37,14 @@ const Works = () => {
         {projects.filter((p) => p.category === 'Back-End').map((project) => (
           <Project
             key={project.id}
+            category={project.category}
             name={project.name}
             description={project.description}
             featuredImage={project.featuredImage}
             technologies={project.technologies}
           />
         ))}
+        <br />
       </div>
 
       <h2>Full-Stack Projects</h2>
@@ -50,6 +53,7 @@ const Works = () => {
           {projects.filter((p) => p.category === 'Full-Stack').map((project) => (
             <Project
               key={project.id}
+              category={project.category}
               name={project.name}
               description={project.description}
               featuredImage={project.featuredImage}

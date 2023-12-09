@@ -64,7 +64,7 @@ const Projects = [
   },
   {
     name: 'My Catalog',
-    description: 'a console app that will help you to keep a record of different types of things you own: books, music albums, and games. All data is preserved.',
+    description: 'A console app that will help you to keep a record of different types of things you own: books, music albums, and games. All data is preserved.',
     featuredImage: './images/Proj3-bg.png',
     technologies: [['Ruby']],
     liveLink: '#',
