@@ -8,11 +8,11 @@ import Works from './components/Works';
 function App() {
   return (
     <div>
-        <Navigation />
-        <Home />
-        <Works />
-        <About />
-        <Contact />
+      <Navigation />
+      <Home />
+      <Works />
+      <About />
+      <Contact />
     </div>
   );
 }
