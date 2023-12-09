@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div className="headline">
-    <h1 className="hello-me">Hey, I'm Sunga.</h1>
+    <h1 className="hello-me">Hey, I&apos;m Sunga.</h1>
     <h3 className="SD">
       Full-Stack Developer
       <br />

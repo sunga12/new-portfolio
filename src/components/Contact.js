@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => (
   <div>
-    <h2 className="contact-comment">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+    <h2 className="contact-comment">I&apos;m always interested in hearing about new projects, so if you&apos;d like to chat please get in touch.</h2>
     <form action="https://formspree.io/f/mqkoaqdk/" method="POST">
       <ul className="form-list">
         <li>
