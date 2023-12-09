@@ -1,5 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { motion } from 'framer-motion';
+
+const buttonVariants = {
+  hover: {
+    scale: 1.05,
+    textShadow: '0px 0px 8px rgb(255,255,255)',
+    boxShadow: '0px 0px 8px rgb(255,255,255)',
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      duration: 0.4,
+    },
+  },
+};
 
 const Project = ({
   name, description, featuredImage, technologies, category,
@@ -9,13 +23,19 @@ const Project = ({
       <img src={featuredImage} alt="project" />
     </div>
     <h4>{name}</h4>
-    <p>{description}</p>
-    <ul>
+    <p className="proj-desc">{description}</p>
+    <ul className="techs">
       {technologies.map((tech) => (
-        <li key={tech.id}>{tech}</li>
+        <li className="tech" key={tech.id}>{tech}</li>
       ))}
     </ul>
-    <button type="button">More Info</button>
+    <motion.button
+      variants={buttonVariants}
+      whileHover="hover"
+      type="button"
+    >
+      More Info
+    </motion.button>
   </div>
 );
 

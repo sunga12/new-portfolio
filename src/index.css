@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to bottom right, #08000e, rgb(30, 2, 40) );
+  background-image: linear-gradient(to bottom right, #000000, rgb(0, 0, 0));
   color: #fff;
   padding: 0 3%;
 }
@@ -58,9 +58,6 @@ nav > ul {
   display: none;
 } */
 
-.project {
-}
-
 .slides {
   width: 90%;
   margin: 0 auto;
@@ -76,7 +73,7 @@ button {
 }
 
 .Front-End {
-  background-image: linear-gradient(to bottom, rgba(0, 128, 0, 0.621), #08000e);
+  background-image: linear-gradient(to bottom, #9bbec8, #08000e1b);
   margin: 3% auto;
   width: 60%;
   text-align: center;
@@ -86,7 +83,7 @@ button {
 }
 
 .Back-End {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.436), #08000e);
+  background-image: linear-gradient(to bottom, #427d9d, #08000e);
   margin: 3% auto;
   width: 60%;
   text-align: center;
@@ -96,11 +93,26 @@ button {
 }
 
 .Full-Stack {
-    background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.323), #08000e);
-    margin: 3% auto;
-    width: 60%;
-    text-align: center;
-    border: 2px solid #fff;
-    padding: 2%;
-    border-radius: 10px;
+  background-image: linear-gradient(to bottom, #164863, #08000e);
+  margin: 3% auto;
+  width: 60%;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech {
+  border: 1px solid #fff;
+  background-color: #ffffff85;
+  font-size: 0.8rem;
+  border-radius: 15px;
+  width: 40%;
+  margin: 2% auto;
+  padding: 1%;
 }
