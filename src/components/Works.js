@@ -10,7 +10,7 @@ const Works = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: (window.innerWidth > 768) ? 3 : 1,
     slidesToScroll: 1,
   };
 
@@ -33,7 +33,7 @@ const Works = () => {
 
       <h2>Back-End Projects</h2>
       <div className="slides">
-        {projects.filter((project) => project.category === 'Back-End').map((project) => (
+        {projects.filter((p) => p.category === 'Back-End').map((project) => (
           <Project
             key={project.id}
             name={project.name}
@@ -47,7 +47,7 @@ const Works = () => {
       <h2>Full-Stack Projects</h2>
       <div className="slides">
         <Slider {...settings}>
-          {projects.filter((project) => project.category === 'Full-Stack').map((project) => (
+          {projects.filter((p) => p.category === 'Full-Stack').map((project) => (
             <Project
               key={project.id}
               name={project.name}

@@ -1,14 +1,5 @@
 const Projects = [
   {
-    name: 'Royal School Website',
-    description: 'School Website Designed using the Cindy Shen Template on Behance. Located in Ndola, Zambia, Royal is proud to offer a supportive and inclusive community that values diversity, creativity, and environmental responsibility. Explore the website and learn more about how Royal Primary & Secondary School can help your child reach their full potential.',
-    featuredImage: '../assets/images/rss-square.png',
-    technologies: [['CSS3'], ['HTML5'], ['Javascript'], ['Bootstrap']],
-    liveLink: 'https://sunga12.github.io/Capstone-project-1/',
-    sourceLink: 'https://github.com/sunga12/Capstone-project-1',
-    category: 'Front-End',
-  },
-  {
     name: 'Country Insights Web-App',
     description: 'A basic webapp that displays countries and their various details, & allows users to Navigate between the home page and details page, depending on the country of their choice.',
     featuredImage: './assets/images/CIW.png',
@@ -36,6 +27,15 @@ const Projects = [
     category: 'Front-End',
   },
   {
+    name: 'Royal School Website',
+    description: 'School Website Designed using the Cindy Shen Template on Behance. Located in Ndola, Zambia, Royal is proud to offer a supportive and inclusive community that values diversity, creativity, and environmental responsibility. Explore the website and learn more about how Royal Primary & Secondary School can help your child reach their full potential.',
+    featuredImage: '../assets/images/rss-square.png',
+    technologies: [['CSS3'], ['HTML5'], ['Javascript'], ['Bootstrap']],
+    liveLink: 'https://sunga12.github.io/Capstone-project-1/',
+    sourceLink: 'https://github.com/sunga12/Capstone-project-1',
+    category: 'Front-End',
+  },
+  {
     name: 'Math Magicians',
     description: 'A Simple SPA that has 3 Sections. A Home page to tell you a little about myself, a Calculator, and a Random Quote generator the gives you a new quote each time you navigate to the quotes page, through a fetch request from the API-Ninja API. ',
     featuredImage: './images/MM-Calc.png',
@@ -57,7 +57,7 @@ const Projects = [
     name: 'SmartSpendr',
     description: 'A web application crafted with Ruby on Rails and powered by PostgreSQL. This App is designed to help you spend smarter, and budget better! It helps you to track your expenditures across the different categories they fall into, to help you see where all your money is "disappearing" to!',
     featuredImage: './images/Proj3-bg.png',
-    technologies: [['HTML'], ['Bootstrap'], ['Ruby']],
+    technologies: [['HTML'], ['Bootstrap'], ['Ruby on Rails']],
     liveLink: 'https://smartspendr-budget-app.onrender.com/',
     sourceLink: 'https://github.com/sunga12/Smartspendr',
     category: 'Full-Stack',
