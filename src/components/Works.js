@@ -100,7 +100,6 @@ const Works = () => {
             technologies={project.technologies}
           />
         ))}
-        <br />
       </motion.div>
 
       <motion.h2

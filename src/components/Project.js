@@ -18,7 +18,7 @@ const buttonVariants = {
 const Project = ({
   name, description, featuredImage, technologies, category,
 }) => (
-  <div className={`${category}`}>
+  <div className={`${category} 'project'`}>
     <div>
       <img src={featuredImage} alt="project" />
     </div>

@@ -30,7 +30,7 @@ const Projects = [
     name: 'Royal School Website',
     description: 'School Website Designed using the Cindy Shen Template on Behance. Located in Ndola, Zambia, Royal is proud to offer a supportive and inclusive community that values diversity, creativity, and environmental responsibility. Explore the website and learn more about how Royal Primary & Secondary School can help your child reach their full potential.',
     featuredImage: '../assets/images/rss-square.png',
-    technologies: [['CSS3'], ['HTML5'], ['Javascript'], ['Bootstrap']],
+    technologies: [['CSS3'], ['HTML5'], ['Javascript']],
     liveLink: 'https://sunga12.github.io/Capstone-project-1/',
     sourceLink: 'https://github.com/sunga12/Capstone-project-1',
     category: 'Front-End',
