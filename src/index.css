@@ -83,7 +83,7 @@ button {
 }
 
 .Front-End {
-  background-image: linear-gradient(to bottom, #7bd0e7c8, #08000e1b);
+  background-image: linear-gradient(to bottom, #7bd0e7b4, #08000e1b);
   margin: 3% auto;
   width: 60%;
   text-align: center;
@@ -133,6 +133,19 @@ button {
   height: 150px;
 }
 
-.project {
-  border: 3px solid green;
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
 }
