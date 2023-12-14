@@ -1,5 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import wellfound from '../assets/images/angel list.png';
+import github from '../assets/images/github.png';
+import linkedin from '../assets/images/Linkedin icon.png';
+import medium from '../assets/images/medium.png';
 
 const buttonVariants = {
   hover: {
@@ -14,17 +18,58 @@ const buttonVariants = {
   },
 };
 
+const iconVariants = {
+  hover: {
+    y: -5,
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      duration: 0.2,
+    },
+  },
+};
+
 const Contact = () => (
   <div>
     <h1 className="about-title">Contact me</h1>
-    <h3 className="contact-comment">I&apos;m always interested in hearing about new projects, so if you&apos;d like to chat please get in touch.</h3>
+    <ul className="icons">
+      <motion.li
+        variants={iconVariants}
+        initial="initial"
+        whileHover="hover"
+      >
+        <a href="https://www.github.com/sunga12"><img src={github} className="contact-icon" alt="github" /></a>
+      </motion.li>
+      <motion.li
+        variants={iconVariants}
+        initial="initial"
+        whileHover="hover"
+      >
+        <a href="https://www.linkedin.com/in/sungabanja-thawethe-b3419b142"><img src={linkedin} className="contact-icon" alt="linkedIn" /></a>
+      </motion.li>
+      <motion.li
+        variants={iconVariants}
+        initial="initial"
+        whileHover="hover"
+      >
+        <a href="https://wellfound.com/u/sungabanja-thawethe"><img src={wellfound} className="contact-icon" alt="wellfound" /></a>
+      </motion.li>
+      <motion.li
+        variants={iconVariants}
+        initial="initial"
+        whileHover="hover"
+      >
+        <a href="https://medium.com/@sungabt"><img src={medium} className="contact-icon" alt="medium" /></a>
+      </motion.li>
+    </ul>
+    <h4 className="contact-comment">I&apos;m always interested in hearing about new projects, so if you&apos;d like to chat please get in touch.</h4>
     <form action="https://formspree.io/f/mqkoaqdk/" method="POST">
       <ul className="form-list">
         <li>
           <input type="text" name="user-name" id="name" maxLength="30" required placeholder="Full name" />
         </li>
         <li>
-          <input type="email" name="user-email" id="mail" required placeholder="Email address" />
+          <input type="email" name="user-email" id="email" required placeholder="Email address" />
         </li>
         <li>
           <textarea name="user-message" id="message" maxLength="500" required placeholder="Write me something..." />
