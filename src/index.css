@@ -14,12 +14,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   /* background-image: linear-gradient(to bottom right, #08000e, rgb(0, 0, 0)); */
   background-color: #000;
   color: #fff;
   padding: 0 3%;
   width: 100vw;
-  overflow-x: hidden;
+
+  /* overflow-x: hidden; */
 }
 
 .cta {
@@ -80,7 +82,6 @@ nav > ul {
   position: fixed;
   top: 25px;
   right: 25px;
-  cursor: pointer;
   z-index: 35;
   background-color: transparent;
   border: 0;
@@ -119,22 +120,45 @@ nav > ul {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(64, 63, 63, 0.578);
+  background-color: rgba(94, 94, 94, 0.932);
   z-index: 10;
 }
 
 .sliding-text {
-  position: absolute;
-  top: 240px;
-  font-size: 8rem;
+  font-size: 1.5rem;
   color: rgba(188, 188, 188, 0.151);
   width: 100%;
   font-weight: bold;
   white-space: nowrap;
 }
 
+.backdrop {
+  background-color: #ffe60043;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+}
+
+.modal {
+  background-color: orange;
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 100px;
+  width: 75%;
+  height: 60%;
+  padding: 3%;
+}
+
 .headline {
-  margin-bottom: 9rem;
+  /* margin-bottom: 4rem; */
 }
 
 .info {
@@ -156,18 +180,33 @@ nav > ul {
     10px 0 80px #0ff;         /* outer right cyan */
 }
 
+.img-div {
+  width: 90%;
+  height: 30%;
+  margin: 0.4rem auto 0 auto;
+}
+
+.proj-img {
+  justify-self: center;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
 button {
   background-color: #08000e;
   color: #fff;
   border: 2px solid #fff;
   border-radius: 2rem;
-  padding: 3%;
-  width: 7rem;
+  padding: 2%;
+  width: 35%;
+  font-size: 0.5rem;
 }
 
 .Front-End {
   background-image: linear-gradient(to bottom, #7bd0e7b4, #08000e1b);
   margin: 3% auto;
+  height: 80vh;
   width: 60%;
   text-align: center;
   border: 2px solid #7bd0e7b4;
@@ -178,6 +217,7 @@ button {
 .Back-End {
   background-image: linear-gradient(to bottom, #427d9dc4, #08000e1b);
   margin: 3% auto;
+  height: 80vh;
   width: 60%;
   text-align: center;
   border: 2px solid #427d9dc4;
@@ -188,6 +228,7 @@ button {
 .Full-Stack {
   background-image: linear-gradient(to bottom, #119cc2a9, #08000e1b);
   margin: 3% auto;
+  height: 80vh;
   width: 60%;
   text-align: center;
   border: 2px solid #119cc2a9;
@@ -198,22 +239,26 @@ button {
 .techs {
   display: flex;
   flex-wrap: wrap;
+  margin: 0.5rem 0;
 }
 
 .tech {
   border: 1px solid #fff;
   background-color: #ffffff85;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   border-radius: 15px;
-  width: 40%;
+  width: 22%;
   margin: 2% auto;
   padding: 1%;
+  color: #000;
 }
 
 .proj-desc {
   padding: 2%;
   overflow-y: scroll;
-  height: 150px;
+  height: 100px;
+  margin: 0;
+  font-size: 0.7rem;
 }
 
 /* width */
