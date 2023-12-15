@@ -68,8 +68,12 @@ const Works = () => {
               category={project.category}
               name={project.name}
               description={project.description}
+              liveLink={project.liveLink}
+              sourceLink={project.sourceLink}
               featuredImage={project.featuredImage}
               technologies={project.technologies}
+              deployed={project.deployed}
+
             />
           ))}
         </Slider>
