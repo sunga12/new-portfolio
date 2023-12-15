@@ -10,11 +10,11 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: '-220vw',
+    x: '30vw',
     transition: {
-      repeat: 1,
+      repeat: Infinity,
       repeatType: 'mirror',
-      duration: 20,
+      duration: 5,
     },
   },
 };
@@ -23,7 +23,7 @@ const iconVariants = {
   hover: {
     y: -5,
     transition: {
-      repeat: 1,
+      repeat: 10,
       repeatType: 'mirror',
       duration: 0.2,
     },
@@ -34,7 +34,7 @@ const Home = () => (
   <div className="headline">
     <h1 className="hello-me">Hey, I&apos;m Sunga.</h1>
     <h3 className="SD">
-      A Full-Stack Developer.
+      A Software Developer.
     </h3>
     <ul className="icons">
       <motion.li
