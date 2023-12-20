@@ -10,11 +10,11 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: '30vw',
+    color: ['#f0f', '#fff', '#119cc2a9'],
     transition: {
       repeat: Infinity,
       repeatType: 'mirror',
-      duration: 5,
+      duration: 7,
     },
   },
 };
