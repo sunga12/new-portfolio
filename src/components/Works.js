@@ -34,7 +34,7 @@ const Works = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: (window.innerWidth > 768) ? 3 : 1,
+    slidesToShow: 1,
     slidesToScroll: 1,
   };
 
@@ -100,8 +100,11 @@ const Works = () => {
             category={project.category}
             name={project.name}
             description={project.description}
+            liveLink={project.liveLink}
+            sourceLink={project.sourceLink}
             featuredImage={project.featuredImage}
             technologies={project.technologies}
+            deployed={project.deployed}
           />
         ))}
       </motion.div>
@@ -128,8 +131,11 @@ const Works = () => {
               category={project.category}
               name={project.name}
               description={project.description}
+              liveLink={project.liveLink}
+              sourceLink={project.sourceLink}
               featuredImage={project.featuredImage}
               technologies={project.technologies}
+              deployed={project.deployed}
             />
           ))}
         </Slider>

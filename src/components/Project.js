@@ -48,7 +48,7 @@ const Project = ({
           </motion.button>
         </a>
         <span> </span>
-        {true
+        {deployed
         && (
         <a href={liveLink} target="_blank" rel="noreferrer">
           <motion.button
@@ -57,7 +57,6 @@ const Project = ({
             whileTap={{ scale: 0.9 }}
             onClick={() => (modalOpen ? close() : open())}
           >
-            {deployed}
             Live
           </motion.button>
         </a>

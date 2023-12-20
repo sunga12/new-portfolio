@@ -3,9 +3,7 @@ import TVS from '../assets/images/TVS API Dark.png';
 import SPH from '../assets/images/Thumbnail SPH.jpg';
 import RSS from '../assets/images/rss-square.png';
 import MMC from '../assets/images/MM-Calc.png';
-import BS from '../assets/images/BS.png';
 import CRS from '../assets/images/CRS.jpg';
-import RaRe from '../assets/images/RaRe.jpg';
 import DF from '../assets/images/Proj3-bg.png';
 
 const Projects = [
@@ -70,16 +68,6 @@ const Projects = [
     deployed: true,
   },
   {
-    name: 'Bookstore',
-    description: 'A basic website that displays books and their details using an API. It also allows users to Add Books to the Store with a name and author, with the option to remove the book. Each book also has a progress circle that displays the current reading progress.',
-    featuredImage: BS,
-    technologies: [['React'], ['Redux'], ['CSS3']],
-    liveLink: '#',
-    sourceLink: 'https://github.com/sunga12/bookstore/',
-    category: 'Front-End',
-    deployed: false,
-  },
-  {
     name: 'My Catalog',
     description: 'A console app that will help you to keep a record of different types of things you own: books, music albums, and games. All data is preserved.',
     featuredImage: DF,
@@ -98,16 +86,6 @@ const Projects = [
     sourceLink: 'https://github.com/hmunish/final-capstone-frontend',
     category: 'Full-Stack',
     deployed: true,
-  },
-  {
-    name: 'Rails Recipes',
-    description: 'A web application crafted with Ruby on Rails and powered by PostgreSQL. This platform is designed to make recipe creation, discovery, and sharing a seamless experience. With this app, users can easily document and share their favorite recipes in an engaging blog-style format.',
-    featuredImage: RaRe,
-    technologies: [['Rails'], ['Bootstrap'], ['PostgreSQL']],
-    liveLink: '#',
-    sourceLink: 'https://github.com/sunga12/Recipe-App-RoR',
-    category: 'Full-Stack',
-    deployed: false,
   },
 ];
 
