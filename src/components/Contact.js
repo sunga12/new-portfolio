@@ -30,7 +30,7 @@ const iconVariants = {
 };
 
 const Contact = () => (
-  <div>
+  <div id="contact">
     <h1 className="about-title">Contact me</h1>
     <ul className="icons">
       <motion.li

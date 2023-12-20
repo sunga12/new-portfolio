@@ -31,7 +31,7 @@ const iconVariants = {
 };
 
 const Home = () => (
-  <div className="headline">
+  <div id="home" className="headline">
     <h1 className="hello-me">Hey, I&apos;m Sunga.</h1>
     <h3 className="SD">
       A Software Developer.

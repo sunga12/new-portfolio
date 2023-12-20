@@ -278,7 +278,7 @@ button {
   border-radius: 10px;
 }
 
-.ab-info {
+#about {
   margin: 10rem auto;
   display: flex;
   flex-direction: column;

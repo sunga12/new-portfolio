@@ -39,7 +39,7 @@ const Works = () => {
   };
 
   return (
-    <div>
+    <div id="works">
       <motion.h1
         variants={containerVariants}
         initial="shifted"
