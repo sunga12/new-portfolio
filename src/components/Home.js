@@ -44,6 +44,13 @@ const buttonVariants = {
   },
 };
 
+const scrollToContact = () => {
+  const contactSection = document.getElementById('contact');
+  if (contactSection) {
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 const Home = () => (
   <div id="home" className="headline">
     <h1 className="hello-me">Hey, I&apos;m Sunga.</h1>
@@ -85,6 +92,7 @@ const Home = () => (
       variants={buttonVariants}
       whileHover="hover"
       className="home-contact"
+      onClick={scrollToContact}
     >
       Get in touch
     </motion.button>
