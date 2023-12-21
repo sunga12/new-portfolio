@@ -11,11 +11,11 @@ const containerVariants = {
     opacity: 0,
   },
   shifted: {
-    x: '85vw',
+    y: '-100vh',
 
   },
   unshifted: {
-    x: 0,
+    y: 0,
     transition: {
       duration: 1,
     },
@@ -23,7 +23,7 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      delay: 0.5,
+      staggerChildren: 0.2,
       duration: 1.5,
     },
   },
@@ -42,23 +42,27 @@ const Works = () => {
     <div id="works">
       <motion.h1
         variants={containerVariants}
-        initial="shifted"
-        animate="unshifted"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        className="some-works"
       >
         Some of my works:
       </motion.h1>
 
       <motion.h2
         variants={containerVariants}
-        initial="shifted"
-        animate="unshifted"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
       >
         Front-End Projects
       </motion.h2>
       <motion.div
         variants={containerVariants}
         initial="hidden"
-        animate="visible"
+        whileInView="visible"
+        viewport={{ once: true }}
         className="slides"
       >
         <Slider {...settings}>
@@ -81,8 +85,8 @@ const Works = () => {
 
       <motion.h2
         variants={containerVariants}
-        initial="shifted"
-        whileInView="unshifted"
+        initial="hidden"
+        whileInView="visible"
         viewport={{ once: true }}
       >
         Back-End Projects
@@ -111,8 +115,8 @@ const Works = () => {
 
       <motion.h2
         variants={containerVariants}
-        initial="shifted"
-        whileInView="unshifted"
+        initial="hidden"
+        whileInView="visible"
         viewport={{ once: true }}
       >
         Full-Stack Projects
