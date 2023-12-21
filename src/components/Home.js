@@ -7,9 +7,10 @@ import medium from '../assets/images/medium.png';
 
 const sliderVariants = {
   initial: {
-    x: 0,
+    opacity: 0,
   },
   animate: {
+    opacity: 1,
     color: ['#f0f', '#fff', '#119cc2a9'],
     transition: {
       repeat: Infinity,
@@ -26,6 +27,19 @@ const iconVariants = {
       repeat: 10,
       repeatType: 'mirror',
       duration: 0.2,
+    },
+  },
+};
+
+const buttonVariants = {
+  hover: {
+    scale: 1.05,
+    textShadow: '0px 0px 8px rgb(255,255,255)',
+    boxShadow: '0px 0px 8px rgb(255,255,255)',
+    transition: {
+      repeat: Infinity,
+      repeatType: 'mirror',
+      duration: 0.4,
     },
   },
 };
@@ -66,7 +80,14 @@ const Home = () => (
         <a href="https://medium.com/@sungabt"><img src={medium} className="contact-icon" alt="medium" /></a>
       </motion.li>
     </ul>
-    <p className="info">I deliver exceptional user experiences & and robust solutions. Need help? Get in touch.</p>
+    <p className="info">I deliver exceptional user experiences & and robust solutions. Need help?</p>
+    <motion.button
+      variants={buttonVariants}
+      whileHover="hover"
+      className="home-contact"
+    >
+      Get in touch
+    </motion.button>
     <motion.div
       variants={sliderVariants}
       initial="initial"
