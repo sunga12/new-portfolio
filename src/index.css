@@ -121,9 +121,9 @@ nav > ul {
 }
 
 .sliding-text {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: rgba(188, 188, 188, 0.856);
-  margin: auto;
+  margin: 1rem auto 0;
   font-weight: bold;
   white-space: nowrap;
 }
@@ -160,24 +160,39 @@ nav > ul {
   justify-content: center;
 }
 
+.hello-me {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
 .icons {
   display: flex;
   gap: 1rem;
-  margin: 0.5rem;
+  margin: 1rem auto 0.5rem;
 }
 
 .SD {
   width: 80%;
   margin: auto;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .info {
   width: 70%;
-  margin: auto;
+  margin: 0 auto 1rem;
+}
+
+.some-works {
+  margin-left: 2%;
+}
+
+.proj-title {
+  margin-left: 5%;
 }
 
 .slides {
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
   border-radius: 50%;
   box-shadow:
@@ -219,10 +234,6 @@ button {
   font-size: 0.8rem;
   padding: 0.5rem;
   margin: 0.5rem 0;
-}
-
-.some-works {
-  margin-left: 5%;
 }
 
 .Front-End {

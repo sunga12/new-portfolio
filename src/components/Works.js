@@ -55,6 +55,7 @@ const Works = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
+        className="proj-title"
       >
         Front-End Projects
       </motion.h2>
@@ -88,6 +89,7 @@ const Works = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
+        className="proj-title"
       >
         Back-End Projects
       </motion.h2>
@@ -118,6 +120,7 @@ const Works = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
+        className="proj-title"
       >
         Full-Stack Projects
       </motion.h2>
