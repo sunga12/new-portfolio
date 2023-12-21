@@ -398,3 +398,23 @@ button {
   vertical-align: middle;
   padding: 0.5rem;
 }
+
+@media only screen and (min-width: 600px) {
+  .info {
+    text-align: center;
+  }
+
+  .sliding-text {
+    font-size: 2rem;
+  }
+
+  .slides {
+    width: 40%;
+  }
+
+  .Front-End,
+  .Back-End,
+  .Full-Stack {
+    height: 70vh;
+  }
+}
