@@ -17,7 +17,7 @@ const buttonVariants = {
 const About = () => (
   <div id="about">
     <h1 className="about-title">About me</h1>
-    <p className="info">I&apos;m a Full-stack developer! I love music, and mentoring! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don&apos;t hesitate to contact me.</p>
+    <p className="ab-info">I&apos;m a Full-stack developer! I love music, and mentoring! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don&apos;t hesitate to contact me.</p>
     <motion.button
       variants={buttonVariants}
       whileHover="hover"
