@@ -227,6 +227,7 @@ button {
   padding: 2%;
   width: 35%;
   font-size: 0.5rem;
+  font-weight: bold;
 }
 
 .home-contact {
@@ -276,14 +277,21 @@ button {
 }
 
 .tech {
-  border: 1px solid #fff;
-  background-color: #ffffff85;
+  background-color: rgba(255, 255, 255, 0.758);
+  border: 1px solid #000000;
   font-size: 0.5rem;
+  font-weight: bold;
   border-radius: 15px;
   width: 22%;
   margin: 2% auto;
   padding: 1%;
-  color: #000;
+  color: #000000;
+}
+
+.tech:hover {
+  border: 1px solid #fff;
+  text-shadow: 0 0 8px rgb(255, 255, 255);
+  box-shadow: 0 0 8px rgb(255, 255, 255);
 }
 
 .proj-desc {
