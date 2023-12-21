@@ -14,6 +14,11 @@ const buttonVariants = {
   },
 };
 
+const openResume = () => {
+  const resumeUrl = 'https://docs.google.com/document/d/1w6tg-esOivXjZ0izzSLLaS1Tf7EvQyjDWNKVFFEPppk/edit?usp=sharing';
+  window.open(resumeUrl, '_blank');
+};
+
 const About = () => (
   <div id="about">
     <h1 className="about-title">About me</h1>
@@ -23,7 +28,8 @@ const About = () => (
       whileHover="hover"
       type="button"
       className="resume-link"
-      href="https://docs.google.com/document/d/1w6tg-esOivXjZ0izzSLLaS1Tf7EvQyjDWNKVFFEPppk/edit?usp=sharing"
+      target="_blank"
+      onClick={openResume}
     >
       Get My Resume
     </motion.button>
