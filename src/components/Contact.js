@@ -87,6 +87,10 @@ const Contact = () => (
         <span id="error" aria-live="polite" />
       </ul>
     </form>
+    <footer>
+      <a href="https://www.freepik.com/free-psd/isolated-tablet-laptop-smartphone-composition_40505824.htm#query=laptop%20ipad%20phone&position=0&from_view=keyword&track=ais&uuid=6ace027a-a553-4fee-b805-4e6f84107415">*SmartSpendr Image by Vectonauta</a>
+      on Freepik
+    </footer>
   </div>
 );
 
