@@ -84,6 +84,8 @@ const Works = () => {
         </Slider>
       </motion.div>
 
+      {projects.filter((p) => p.category === 'Back-End').length >= 1
+      && (
       <motion.h2
         variants={containerVariants}
         initial="hidden"
@@ -93,6 +95,7 @@ const Works = () => {
       >
         Back-End Projects
       </motion.h2>
+      )}
       <motion.div
         variants={containerVariants}
         initial="hidden"
