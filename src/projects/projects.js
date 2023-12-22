@@ -4,7 +4,7 @@ import SPH from '../assets/images/Thumbnail SPH.jpg';
 import RSS from '../assets/images/rss-square.png';
 import MMC from '../assets/images/MM-Calc.png';
 import CRS from '../assets/images/CRS.jpg';
-import DF from '../assets/images/Proj3-bg.png';
+import SPN from '../assets/images/SPN1.png';
 
 const Projects = [
   {
@@ -60,22 +60,12 @@ const Projects = [
   {
     name: 'SmartSpendr',
     description: 'A web application crafted with Ruby on Rails and powered by PostgreSQL. This App is designed to help you spend smarter, and budget better! It helps you to track your expenditures across the different categories they fall into, to help you see where all your money is "disappearing" to!',
-    featuredImage: DF,
+    featuredImage: SPN,
     technologies: [['HTML'], ['Bootstrap'], ['Rails']],
     liveLink: 'https://smartspendr-budget-app.onrender.com/',
     sourceLink: 'https://github.com/sunga12/Smartspendr',
     category: 'Full-Stack',
     deployed: true,
-  },
-  {
-    name: 'My Catalog',
-    description: 'A console app that will help you to keep a record of different types of things you own: books, music albums, and games. All data is preserved.',
-    featuredImage: DF,
-    technologies: [['Ruby']],
-    liveLink: '#',
-    sourceLink: 'https://github.com/K0ppai/My-Catalog',
-    category: 'Back-End',
-    deployed: false,
   },
   {
     name: 'Car Reservations',
