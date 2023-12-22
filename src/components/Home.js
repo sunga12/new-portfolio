@@ -55,7 +55,7 @@ const Home = () => (
   <div id="home" className="headline">
     <h1 className="hello-me">Hey, I&apos;m Sunga.</h1>
     <h3 className="SD">
-      A Software Developer.
+      A Full-Stack Developer.
     </h3>
     <ul className="icons">
       <motion.li
